@@ -1,0 +1,49 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--main-font);
+}
+
+.hero {
+  background: radial-gradient(
+    circle at 0.8% 3.1%,
+    rgb(255, 188, 224) 0%,
+    rgb(170, 165, 255) 46%,
+    rgb(165, 255, 205) 100.2%
+  );
+  text-align: center;
+  padding: 150px 20px;
+}
+h1 {
+  font-size: 86px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  opacity: 0.7;
+  line-height: 2;
+}
+h3 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  color: #558bc0;
+}
+
+.btn-branding {
+  background: rgb(255, 188, 224);
+  border-radius: 10px;
+  color: black;
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 15px 30px;
+}
