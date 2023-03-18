@@ -1,5 +1,7 @@
 :root {
   --main-font: "Roboto", sans-serif;
+  --branding-color: #cec8c8;
+  --secondary-color: #8f8787;
 }
 
 h1,
@@ -7,17 +9,10 @@ h2,
 h3 {
   font-family: var(--main-font);
 }
-
-.hero {
-  background: radial-gradient(
-    circle at 0.8% 3.1%,
-    rgb(255, 188, 224) 0%,
-    rgb(170, 165, 255) 46%,
-    rgb(165, 255, 205) 100.2%
-  );
-  text-align: center;
-  padding: 150px 20px;
+body {
+  background-color: #ebcbae;
 }
+
 h1 {
   font-size: 86px;
   font-weight: bold;
@@ -32,13 +27,37 @@ h3 {
   font-size: 32px;
   font-weight: bolder;
 }
+p {
+  font-family: var(--main-font);
+  font-size: 26;
+  color: black;
+  text-align: center;
+}
+img {
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.col {
+  flex: 1 0 0%;
+}
+
+.hero {
+  background: var(--branding-color);
+  text-align: center;
+  padding: 150px 20px;
+}
 
 .btn:hover {
-  color: #558bc0;
+  color: black;
 }
 
 .btn-branding {
-  background: rgb(255, 188, 224);
+  background-color: #ebcbae;
   border-radius: 10px;
   color: black;
   font-family: var(--main-font);
@@ -46,4 +65,20 @@ h3 {
   font-size: 18px;
   line-height: 26px;
   padding: 15px 30px;
+}
+.btn-branding-outline {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-description {
+  text-align: center;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
