@@ -82,6 +82,42 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 15px;
+  padding: 20px 20px;
+}
+.about-me {
+  text-align: center;
+  padding: 150px 20px;
+}
+.about-me h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about-me h2 {
+  font-size: 18px;
+  font-weight: bolder;
+  opacity: 0.7;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.about-me p {
+  font-family: var(--main-font);
+  font-size: 14px;
+  color: black;
+  text-align: justify;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+.btn-branding-linkedlin {
+  color: black;
+  opacity: 0.7;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 13px 25px;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 900px) {
