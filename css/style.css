@@ -73,15 +73,6 @@ img {
   padding: 15px 30px;
   font-weight: bolder;
 }
-.btn-branding-outline {
-  color: var(--secondary-color);
-  border: 1px solid var(--secondary-color);
-  border-radius: 10px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-  font-weight: 400;
-}
 .project-description {
   text-align: center;
 }
@@ -102,6 +93,7 @@ img {
   opacity: 0.7;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: black;
 }
 .about-me p {
   font-family: var(--main-font);
@@ -140,6 +132,8 @@ img {
 }
 .work-container p {
   font-size: 22px;
+  color: black;
+  opacity: 0.7;
 }
 
 .contact-me {
@@ -173,7 +167,7 @@ img {
 }
 .links {
   color: black;
-  font-size: 18px;
+  font-size: 22px;
 }
 .links:hover {
   opacity: 0.7;
