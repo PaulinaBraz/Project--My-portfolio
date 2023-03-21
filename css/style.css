@@ -9,7 +9,7 @@ h3 {
   font-family: var(--main-font);
 }
 body {
-  background-color: #f7dae9;
+  background-color: #f3e4ec;
 }
 
 h1 {
@@ -63,7 +63,7 @@ img {
 }
 
 .btn-branding {
-  background-color: #f7dae9;
+  background-color: #f3e4ec;
   border-radius: 10px;
   color: rgb(92, 91, 91);
   font-family: var(--main-font);
