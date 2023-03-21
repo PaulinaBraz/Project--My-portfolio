@@ -162,7 +162,7 @@ img {
 }
 .contact-box {
   background: var(--branding-color);
-  padding: 50px 80px;
+  padding: 50px;
   border-radius: 10px;
 }
 .links {
