@@ -141,6 +141,31 @@ img {
   font-size: 22px;
 }
 
+.contact-me {
+  font-family: var(--main-font);
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #ebcbae;
+}
+.contact-me h1 {
+  font-size: 54px;
+  line-height: 1.5;
+}
+.contact-me h3 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+.contact-me p {
+  font-size: 24px;
+}
+.mail {
+  color: black;
+  text-decoration: none;
+}
+.mail:hover {
+  color: var(--secondary-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -181,5 +206,8 @@ img {
     text-align: justify;
     margin-bottom: 40px;
     font-weight: bolder;
+  }
+  .work-container h3 {
+    font-size: 26px;
   }
 }
