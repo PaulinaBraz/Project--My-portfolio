@@ -140,7 +140,7 @@ img {
   font-family: var(--main-font);
   text-align: center;
   padding: 180px 20px;
-  background-color: #f3e4ec;
+  background-color: var(--branding-color);
 }
 .contact-me h1 {
   font-size: 54px;
