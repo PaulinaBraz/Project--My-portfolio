@@ -177,7 +177,16 @@ img {
   font-size: 22px;
   font-weight: bolder;
 }
-
+.cv {
+  color: black;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.cv:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: black;
+}
 .links {
   color: black;
   font-size: 22px;
@@ -201,6 +210,7 @@ img {
   p {
     font-weight: bolder;
   }
+
   .hero {
     padding: 75px 10px;
   }
